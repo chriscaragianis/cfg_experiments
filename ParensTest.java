@@ -3,7 +3,8 @@ class ParensTest {
   private String[] trueTests;
 
   public ParensTest() {
-    falseTests = new String[]{"(",
+    falseTests = new String[] {
+                  "(",
                   "())",
                   "a)",
                   "(b()",
@@ -12,7 +13,8 @@ class ParensTest {
                   ";()(()",
                   "()))(()(()()"
     };
-    trueTests = new String[]{"()",
+    trueTests = new String[] {
+                  "()",
                   "(())",
                   "(a)",
                   "(b())",
