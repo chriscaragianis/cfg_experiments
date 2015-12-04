@@ -10,6 +10,7 @@ class ParensTest {
                   ")$",
                   "(d",
                   ";()(()",
+                  "()))(()(()()"
     };
     trueTests = new String[]{"()",
                   "(())",
